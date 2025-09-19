@@ -1,0 +1,7 @@
+{
+  "description": "学习",
+  "author": "xhlong",
+  "scripts": {
+    "build": "node build.js"
+  }
+}
