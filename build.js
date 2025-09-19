@@ -6,7 +6,7 @@ esbuild.build({
   bundle: true,                    // 打包依赖
   minify: true,                    // 压缩（可选）
   sourcemap: false,                // 不生成 source map（防止源码泄露）
-  outfile: "dist/干部网络学院学习.js",       // 输出文件
+  outfile: "dist/main.js",       // 输出文件
   target: ["es2017"],              // 输出目标语法
   platform: "browser",             // 运行环境
   banner: {
