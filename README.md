@@ -1,6 +1,6 @@
 安装脚本
 在浏览器中直接访问：
-https://raw.githubusercontent.com/xhlong/gd-study/main/gd-study.user.js
+https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.js
 Tampermonkey 会自动弹出安装提示。
 
 更新逻辑
