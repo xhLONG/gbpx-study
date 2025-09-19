@@ -1,18 +1,19 @@
 // ==UserScript==
-// @name         干部学习
-// @namespace    http://tampermonkey.net/
+// @name        干部学习
+// @namespace     http://tampermonkey.net/
 // @version      1.5
-// @description  study now!
+// @description    study now!
 // @author       xhlong
-// @updateURL
-
 // @match        https://gbpx.gd.gov.cn/*
 // @match        https://*.shawcoder.xyz/*
 // @grant        unsafeWindow
 // @grant        GM_openInTab
 // @run-at       document-start
-// ==/UserScript==
 
+// 更新机制
+// @updateURL    https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/meta.js
+// @downloadURL   https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.js
+// ==/UserScript==
 
 // 30分钟
 const AUTO_REFRESH_TIME = 10*60;
