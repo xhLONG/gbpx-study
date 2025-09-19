@@ -11,8 +11,8 @@
 // @run-at       document-start
 
 // 更新机制
-// @updateURL    https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/meta.js
-// @downloadURL   https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.js
+// @updateURL    https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.meta.js
+// @downloadURL   https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.user.js
 // ==/UserScript==
 
 // 30分钟

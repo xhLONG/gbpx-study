@@ -6,7 +6,7 @@ esbuild.build({
   bundle: true,                    // 打包依赖
   minify: true,                    // 压缩（可选）
   sourcemap: false,                // 不生成 source map（防止源码泄露）
-  outfile: "dist/main.js",       // 输出文件
+  outfile: "dist/main.user.js",       // 输出文件
   target: ["es2017"],              // 输出目标语法
   platform: "browser",             // 运行环境
   banner: {
@@ -23,8 +23,8 @@ esbuild.build({
 // @run-at       document-start
 
 // 更新机制
-// @updateURL    https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/meta.js
-// @downloadURL   https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.js
+// @updateURL    https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.meta.js
+// @downloadURL   https://raw.githubusercontent.com/xhLONG/gbpx-study/main/dist/main.user.js
 // ==/UserScript==`
   }
 }).then(() => {
